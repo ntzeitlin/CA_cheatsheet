@@ -1,5 +1,28 @@
+header {
+    width: 100%;
+    background-color: darkslategray;
+    padding: 20px 0;
+    margin: 0;
+    text-align: center;
+    
+}
+
+header a {
+    color: lightgreen;
+    display: inline-block;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 0 5px;
+    border: 1px solid aliceblue;
+
+}
+
 body {
     background-color: aliceblue;
+    margin: 0;
 }
 
 h1,
