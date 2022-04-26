@@ -1,10 +1,14 @@
 * {
     box-sizing: border-box;
+    font-family: 'Barlow' !important;
 }
 
 header {
     width: 100%;
-    background-color: darkslategray;
+}
+    
+nav {
+    width: 100%;
     padding: 20px 0;
     margin: 0;
     text-align: center;
@@ -12,12 +16,11 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-}
-    
-nav {
+    background-color: darkslategray;
 }
 
-header a {
+
+nav .button {
     color: lightgreen;
     font-size: 16px;
     text-align: left;
@@ -26,17 +29,32 @@ header a {
     padding: 10px;
     margin: 0 5px;
     border: 1px solid aliceblue;
+    box-shadow: 3px 5px;
     display: inline-block;
 
 }
 
-header a:hover {
+nav .button:hover {
     background-color: blue;
 }
 
 body {
     background-color: aliceblue;
     margin: 0;
+    margin-bottom: 100px;
+    position: relative;
+    overflow: scroll;
+
+    
+}
+
+footer {
+    height: 75px;
+    background: darkslategray;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 h1,
@@ -44,9 +62,13 @@ h2 {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     color: rgb(20, 14, 109);
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
+
+h1 {
+    margin-top: 100px;
+}
 
 table {
     border: 2px solid black;
